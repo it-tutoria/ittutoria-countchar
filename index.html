@@ -1,0 +1,61 @@
+<html><head>
+    <meta charset="utf-8">
+    <title>Count the occurrences of a character in string in Python</title>
+    <style> 
+        body { margin: 0; } .container { padding-bottom: 100px; background-color: #ffffff; max-width: 800px; padding: 0 10px; margin: 0 auto; margin-bottom: 150px; position: relative; } h1 { text-align: center; padding: 50px 0; color: #ffffff; font-size: 28px; background: #273574; margin: 0; text-transform: capitalize; } h2 { color: #273574; font-size: 24px; } a, a:hover { color: #273574; } * {    font-family: Arial, Helvetica, sans-serif !important;} path.elementor-shape-fill { fill: #fff; } .tp-ft-top { background: #273574; } .footer { background: #273574; color: #fff; padding: 40px 0; text-align: center; } .blockquote {color: #273574; font-style: italic;}
+    </style>
+</head>
+<body>
+
+<h1>How to create a Python program that counts the number of characters in string</h1>
+
+<div class="container">
+<p>We will learn to <a href="https://ittutoria.net/count-occurrences-of-a-character-in-a-string-in-python/">count the occurrences of a character in string in Python</a>. This tutorial will teach you how to use Python to create a program that counts the occurrences of each character in a string. We will identify the distinct characters, distinct characters, unique characters and count the string's words.</p>
+<h2>What is the count of occurrences of a character in a string?</h2>
+<ul>
+<li>Take a string (example: "Python Programming") and create an empty dictionary.</li>
+<li>Use the strings characters as keys, and their count as values.</li>
+<li>If a character is in the string as a key, increment it. Other options include adding the new character as a key to the dictionary and assigning its count value as 1.</li>
+</ul>
+<p>Now, we have a python string dictionary. Let's find out what we can do with this information.</p>
+<ul>
+<li>Duplicate characters from the String</li>
+<li>Different characters in the string</li>
+<li>Unique characters for the String</li>
+<li>The string's number of words.</li>
+</ul>
+<p>Example:</p>
+<ul>
+<li>Input: Welcome to the ittutoria.</li>
+<li>Please enter the character you wish to count: t</li>
+<li>Output: The total number of times t has occurred = 5</li>
+</ul>
+<h2>Algorithm for counting the occurrences of a character within a string</h2>
+<p>Enter a string and the character that you wish to search.</p>
+<ul>
+<li>Set a count variable to 0.</li>
+<li>Iterate by using a for loop and check with an if statement if the current and searching characters are equal.</li>
+<li>When you get the matching character, increment the count variable.</li>
+<li>Print count variable.</li>
+</ul>
+<h2>Python program to count the number of characters in a string.</h2>
+<pre>
+<code>
+string = input("Please enter the String : ")
+char = input("Please enter the Character you want to count: ")
+count = 0
+for i in range(len(string)):
+    if(string[i] == char):
+        count = count + 1
+print("The total Number of Times ", char, " has Occurred = " , count)
+</code>
+</pre>
+<p><b>Output:</b></p>
+<p>Please enter the String : Welcome to the ittutoria<br>
+Please enter the Character you want to count: t<br>
+The total Number of Times t has Occurred = 5</p>
+<p>See more at <a href="https://ittutoria.net/count-occurrences-of-a-character-in-a-string-in-python/">https://ittutoria.net/count-occurrences-of-a-character-in-a-string-in-python/</a></p>
+
+</div>
+
+</body></html>
